@@ -1,0 +1,492 @@
+
+Program parameters setting:
+   -k <int>   set kmer size, default=31
+   -r <int>   set maximum allowed read length, default=250
+   -f <int>   set the input file format: 1: fq|gz(one-line), 2: fa|gz(one-line), default=2
+   -o <str>   set the output prefix, default = Ecoli_corrected_reads
+   -t <int>   run the program in multiple thread mode, default=10
+   -i <float>  set initialization size (uint:G) of kmer-hash, memory consumption(* 16 G bytes), default=0.1G
+   -l <float>  set loading factor of the hash, default=0.7
+   -e <int>  max doubling times of hash size allowed to enlarge memory consumption, default=10
+   -b <int>  buff size: number of reads loading into the buffer memory, default=10000
+   -D <int>   delete kmer-links with frequency no larger than, default=2
+   -T <int>   wheter cut off tip branches, 1:yes; 0:no; default=1
+   -I <int>   set the max allowed tip length, default=100
+   -P <float>  set the max allowed tip depth, default=3
+   -W <int>   wheter cut off low coverage edges between two branching nodes, 1:yes; 0:no; default=1
+   -C <int>    set the max allowed length for low coverage edges, default=100
+   -G <float>  set the max allowed depth for low coverage edges, default=3
+   -B <int>   wheter cut off bubble branches, 1:yes; 0:no; default=1
+   -U <int>   set the max allowed bubble length, default=100
+   -L <float>   set the max allowed length difference rate between the two bubbles, default=0.1
+   -E <float>  set the max allowed base difference rate between the two bubbles, default=0.1
+   -M <int>    set the minimum length for contig to output, default=125
+
+Start to initialize the kmerset hash
+Hash initialization array size:  0.1 G
+The initialization memory used:  1.6 G
+Finished! Run time: 0.55
+
+parse input reads files: 
+
+Start to parse reads file: ../01.clean_correct/Ecoli_readlen250_insert400_20X_250_400_1.fq.gz.nonLowQual.gz.nonAdapter.gz.correct.fa.gz
+
+10 children threads created!
+Load reads block 10000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 20000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 30000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 40000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 50000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 60000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 70000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 80000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 90000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 100000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 110000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 120000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 130000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 140000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 150000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 160000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 170000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 180000
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 185662
+this block has reach the end of file 
+chop reads to kmers done
+add kmers to hash done
+
+Total number of reads loaded into memory: 185662
+Total number of kmers loaded into memory: 40239167
+Finished! Run time: 19.61
+
+Start to parse reads file: ../01.clean_correct/Ecoli_readlen250_insert400_20X_250_400_2.fq.gz.nonLowQual.gz.nonAdapter.gz.correct.fa.gz
+
+10 children threads created!
+Load reads block 195662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 205662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 215662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 225662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 235662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 245662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 255662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 265662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 275662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 285662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 295662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 305662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 315662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 325662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 335662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 345662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 355662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 365662
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 371324
+this block has reach the end of file 
+chop reads to kmers done
+add kmers to hash done
+
+Total number of reads loaded into memory: 371324
+Total number of kmers loaded into memory: 79158612
+Finished! Run time: 30.52
+
+Start to parse reads file: ../01.clean_correct/Ecoli_readlen250_insert800_20X_250_800_1.fq.gz.nonLowQual.gz.nonAdapter.gz.correct.fa.gz
+
+10 children threads created!
+Load reads block 381324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 391324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 401324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 411324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 421324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 431324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 441324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 451324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 461324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 471324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 481324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 491324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 501324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 511324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 521324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 531324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 541324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 551324
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 556986
+this block has reach the end of file 
+chop reads to kmers done
+add kmers to hash done
+
+Total number of reads loaded into memory: 556986
+Total number of kmers loaded into memory: 119396270
+Finished! Run time: 41.99
+
+Start to parse reads file: ../01.clean_correct/Ecoli_readlen250_insert800_20X_250_800_2.fq.gz.nonLowQual.gz.nonAdapter.gz.correct.fa.gz
+
+10 children threads created!
+Load reads block 566986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 576986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 586986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 596986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 606986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 616986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 626986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 636986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 646986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 656986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 666986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 676986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 686986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 696986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 706986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 716986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 726986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 736986
+chop reads to kmers done
+add kmers to hash done
+
+10 children threads created!
+Load reads block 742648
+this block has reach the end of file 
+chop reads to kmers done
+add kmers to hash done
+
+Total number of reads loaded into memory: 742648
+Total number of kmers loaded into memory: 158315081
+Finished! Run time: 53.04
+
+Kmerset hash parameters:
+element_size:	16
+array_size:	100000007
+load_factor:	0.7
+max_cutoff:	70000008
+iter_ptr:	0
+count:	4693215
+conflict:	3712402
+
+Load reads, chop kmer, build kmer graph finished !
+
+Start to calulate kmer links information!
+
+Total kmer nodes number:    4693215
+Deleted lowfreq kmer nodes: 4078	0.000868914
+Used linear kmer nodes:     4679045	0.996981
+Used tip kmer nodes:        95	2.0242e-05
+Used branching kmer nodes:  9997	0.0021301
+Finished! Run time: 53.81
+
+Start to remove tips caused by sequencing error!
+
+remove total tip number:  34
+remove total tip length:  161
+Finished! Run time: 53.81
+
+Start to remove small low coverage edges between two branching nodes!
+
+remove total lowCovEdge number: 2
+remove total lowCovEdge length: 23
+Finshed! Run time: 53.94
+
+Start to remove bubbles caused by repeats and heterozygotes!
+
+remove total bubble number: 4305
+remove total bubble length: 140634
+Finished! Run time: 54.07
+
+Start to read out contig sequence and the depth information!
+
+contig break-point number:     59
+contig branch-point number:    3677
+
+Total contig number:   516
+Total contig length:   4536342
+
+Total small edge number:   1352
+Total small edge length:   74638
+Finished! Run time: 55.23
+
+Remove tips, merge bubbles, output contig sequence finished !
+
+Assembly completely finished!

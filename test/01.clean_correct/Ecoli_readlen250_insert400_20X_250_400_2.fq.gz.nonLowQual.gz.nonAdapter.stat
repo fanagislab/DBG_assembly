@@ -1,0 +1,8 @@
+total_raw_reads:  185662
+total_raw_bases:  46410844
+total_adapter_trimmed_reads:  85
+total_adapter_trimmed_bases:  10327	0.000222513
+total_short_trimmed_reads:  16
+total_short_trimmed_bases:  614	1.32297e-05
+total_clean_reads:  185646
+total_clean_bases:  46399903	0.999764

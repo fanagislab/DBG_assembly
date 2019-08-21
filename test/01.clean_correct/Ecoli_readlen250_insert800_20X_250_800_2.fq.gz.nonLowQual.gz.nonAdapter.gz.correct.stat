@@ -1,0 +1,15 @@
+num_raw_reads 185662
+num_raw_bases 46400118
+num_result_reads 185595
+num_result_bases 44486661
+
+num_trimmed_reads 56634
+num_trimmed_bases 1902981
+num_deleted_reads 67
+
+num_corrected_bases_by_Fast_method 136194
+num_corrected_bases_by_BBtree_method 63959
+num_corrected_bases_by_two_methods 200153
+
+filter_ratio: (num_raw_bases - num_res_bases) / num_raw_bases 0.0412382
+correct_ratio: total_all_base_correct_score / num_res_bases 0.00449917

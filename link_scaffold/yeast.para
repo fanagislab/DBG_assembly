@@ -1,0 +1,7 @@
+#scaf_rank  kmer_size  seedKmerNum  align_ident  insert_size  pairNumCut  is_mate  read_file
+1  31  10  0.95  170  3  0  yeast_E01_100_170_1.fa.cor.pair 
+2  31  10  0.95	 500  3  0  yeast_E01_100_500_1.fa.cor.pair
+3  31  10  0.95	 800  3  0  yeast_E01_100_800_1.fa.cor.pair 
+4  31  2  0.95	 2000 3  1  yeast_E01_50_2000_1.fa.cor.pair 
+5  31  2  0.95	 5000 3  1  yeast_E01_50_5000_1.fa.cor.pair 
+6  31  2  0.95	10000 3  1  yeast_E01_50_10000_1.fa.cor.pair

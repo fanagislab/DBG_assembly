@@ -1,0 +1,8 @@
+#total_raw_reads:   185662
+#total_raw_bases:   46415500
+#filtered_lowqual_reads: 3	0.00161584%
+#filtered_lowqual_bases: 64	0.000137885%
+#filtered_short_reads: 0	0%
+#filtered_short_bases: 0	0%
+#total_clean_reads: 185662	100%
+#total_clean_bases: 46415436	99.9999%
