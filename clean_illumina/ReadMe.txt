@@ -13,7 +13,7 @@ Besides quality checking, another important task in QC is to detect the contamin
 
 The input file should be fastq format, and there are two result files: one is the clean reads file, and the other one is a statistics file.
 
-More help information can be obtained by typing "clean_lowqual" or "clean_lowqual -h" in the command line.
+More help information can be obtained by typing "clean_adapter" or "clean_adapter -h" in the command line.
 
 3. Furthermore
 
